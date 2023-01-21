@@ -6,8 +6,7 @@ body{
     
 }
 .head{
-    //background: linear-gradient(90deg, green,aqua,goldenrod);
-    background: url("/bg3.jpg");
+    //background: green;
     border-radius: 1%;
     width: inherit;
     object-position: center;
