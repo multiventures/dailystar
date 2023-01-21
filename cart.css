@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+    color: ;
+}
+img{
+    max-width:300px;
+    max-height:450px;
+}
+button{
+    background: linear-gradient(black,orange,yellow,goldenrod);
+    padding:1%;
+    text-transform: uppercase;
+    content: submit order;
+    color: black;
+    font-weight: bold;
+}
