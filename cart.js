@@ -29,12 +29,12 @@ function load(items){
     +"<option value='44'>44</option>"
     +"</select> <br> <br>"
     +'COLOR: <input type="color" name="color"> (only if you think it is available and confirm below)<br><br>'
-    +'<input type="color-name"'
-    +"TEL NO.: <input type='tel'max='13'name='telephone no:'required> <br><br>"
+    +'<input type="color-name" value="(Default)"><br> <br>'
+    +"TEL NO.: <input type='tel' max='13' name='telephone no:'required> <br><br>"
     +"WHATSAPP:<input type='tel' name='whatsapp no:' required><br><br>"
     +"EMAIL:<input type='email' name='email'required> <br><br>"
     +"QUANTITY: <input type='number'value='1' width='2px' required><br><br>"
-    +"DELIVERY OPTION: <input type='name' name='delivery araea'width='2px' placeholder='nearest town/specify if nairobi' required><br><br>"
+    +"DELIVERY OPTION: <input type='name' name='delivery araea'width='2px' placeholder='e.g.Makadara-Nairobi// Nyeri' required><br><br>"
     +"<input type='name' name='image/ "+localStorage.getItem("textvalue")+"' style='display:none;'>"
     +" <button type='submit' name='submission'>Submit order</button>"
     +"</form> </div>"
