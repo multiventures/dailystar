@@ -34,7 +34,7 @@ function load(items){
     +"WHATSAPP:<input type='tel' name='whatsapp no:' required><br><br>"
     +"EMAIL:<input type='email' name='email'required> <br><br>"
     +"QUANTITY: <input type='number'value='1' width='2px' required><br><br>"
-    +"DELIVERY OPTION: <input type='name' name='delivery araea 'width='2px' placeholder='nearest town/specify if nairobi' required><br><br>"
+    +"DELIVERY OPTION: <input type='name' name='delivery araea'width='2px' placeholder='nearest town/specify if nairobi' required><br><br>"
     +"<input type='name' name='image/ "+localStorage.getItem("textvalue")+"' style='display:none;'>"
     +" <button type='submit' name='submission'>Submit order</button>"
     +"</form> </div>"
