@@ -6,7 +6,7 @@ body{
     
 }
 .head{
-    background: url("/contact_bg.jpg"),blue;
+    background: linear-gradient(60deg, green,goldenrod,crimson,orange);
     border-radius: 1%;
     width: inherit;
     object-position: center;
