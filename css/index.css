@@ -6,7 +6,7 @@ body{
     
 }
 .head{
-    background: linear-gradient(60deg, green,goldenrod,aqua);
+    background: linear-gradient(90deg, green,aqua,goldenrod);
     border-radius: 1%;
     width: inherit;
     object-position: center;
@@ -99,6 +99,9 @@ button:hover{
     margin-top:10%;
     z-index: 1;
     color: white;
+}
+.nav a:after{
+    display:none;
 }
 .intro{
     clear: right;
