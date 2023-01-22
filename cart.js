@@ -16,7 +16,7 @@ function load(items){
     +"<form action='e998c8ed557fae1fef01c359013d2536' method='post' style='padding: 2%;background:linear-gradient(60deg,white,grey,darkgrey)'>"
     +"<h1>CART</h1> Scroll to submit order<br>"+'<img src="'+ localStorage.getItem("textvalue")
     +'">' + "<br>"
-    +'<picture>' + '<img src="'+ localStorage.getItem("textvalue")+'"> </picture>' + '<br>'
+    +'<input type="image" src="'+ localStorage.getItem("textvalue")+'"><br><br>'
     +"NAME:<input type='text' name='user_name' required> <br><br>"
     +"SHOE SIZE:<select name='size'required>"
     +"<option value='35'>35</option>"
