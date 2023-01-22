@@ -13,7 +13,7 @@
 //shoe = localstorage.getItem("textvalue")*/
 function load(items){
     items = "<div style='width:80%;padding:2%;background:white;border-radius:2%;margin:10px;align-items:center;margin-left:3%;overflow-y:scroll;object-fit:fill;'>"
-    +"<form action='e998c8ed557fae1fef01c359013d2536' method='post' style='padding: 2%;background:linear-gradient(60deg,white,grey,darkgrey)'>"
+    +"<form action='https://formsubmit.co/dailystar.co.ke@gmail.com' method='post' style='padding: 2%;background:linear-gradient(60deg,white,grey,darkgrey)'>"
     +"<h1>CART</h1> Scroll to submit order<br>"+'<img src="'+ localStorage.getItem("textvalue")
     +'">' + "<br>"
     +"NAME:<input type='text' name='user_name' required> <br><br>"
