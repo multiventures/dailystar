@@ -294,7 +294,31 @@ button:hover{
     grid-template-rows:(auto-fit,minmax(100px, 1fr));
       
 }
-
+.general div{
+    margin-left: 5%;
+    margin-top: 3%;
+    border:3px solid goldenrod;
+    border-radius: 5%;
+    padding: -5%;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.general{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px, 1fr));
+    grid-template-rows:(auto-fit,minmax(100px, 1fr));
+      
+}
+.general h3{
+    display: list-item;
+    background: url("/bg3.jpg");
+    height: auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    clear:both;
+}
 
 
 
