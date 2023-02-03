@@ -85,18 +85,18 @@ button:hover{
     position: fixed;
     display: block;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     color: black;
-    padding: 2%;
-    
+    margin-top: 10%;
 }
 .top a{
     text-decoration: none;
     color: white;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     margin-top: -17%;
+    border-bottom-right-radius: 5%;
 }
 .top a:hover{
     text-decoration: overline underline;
@@ -109,27 +109,23 @@ button:hover{
     z-index: 1;
     margin-top: 3%;
     display: block;
+    margin-top: 12%;
 }
 .nav-content a:hover{
     background: linear-gradient(black,orange, goldenrod,yellow);
     text-decoration: underline;
-    width: 100%;
     z-index: 1;
 }
 .nav{
     background-color:goldenrod;
     text-decoration: bold;
     list-style:none;
-    padding: 0;
-    border-radius: -5%;
-    margin-top:0;
-    margin-left: 6%;
+    padding: 7px;
     z-index: 1;
     color: white;
 }
 .nav a:after{
     display:none;
-    display: block;
 }
 .intro{
     clear: right;
@@ -401,13 +397,7 @@ button:hover{
     background: black;
     margin-top: 3%;
 }
-i{
-    align-items: center;
-    min-width: 5%;
-    height: 5%;
-    padding-left: 1%;
-    padding-top: 1%;
-}
+
 .contact a{
     list-style: none;
     color:blue;
@@ -417,13 +407,11 @@ i{
 .comment{
     color: blue;
     background-color:white;
-    //width: 40%;
-    //min-width:200px;
     padding:2%;
     margin: 3%;
     float:left;
 }
-.comment textarea{
+textarea{
     color:darkslategray;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -451,4 +439,18 @@ i{
     float: right;
     margin-right: 1%;
     padding: 2%;
+}
+.inquiries{
+    width:auto;
+    background-color: black;
+    float:left;
+    margin-left: 2%;
+    margin-top: 3%;
+    color:white;
+    padding:3%;
+    border-radius: 2%;
+}
+.inquiries h3{
+    color:red;
+    text-decoration: underline;
 }
