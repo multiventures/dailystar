@@ -16,15 +16,22 @@ body{
   @keyframes valentine {
     25% {
       transform: translate3d(-20px, 0, 200px);
-      opacity:0;
-      transform:rotate(45deg);
+      background: linear-gradient(90deg, blue,orange,tomato);
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      transform:rotate(5deg)scaleY(.5);
     }
     50% {
-      transform: translate3d(100px, -39px, -200px); /* The image width */
-      
+      transform: translate3d(100px, -39px, -200px) scale(.8); /* The image width */
+      background: linear-gradient(90deg, navy,crimson);
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     75%{
-        transform: scale(1.1) rotate(-25deg) rotateZ(27deg);
+        transform: scaleZ(.5) rotate(-25deg) rotateZ(27deg);
+        background: linear-gradient(90deg, blue,orange,tomato);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
   }
 .head{
@@ -76,35 +83,32 @@ button:hover{
 .top{
     float: right;
     position: fixed;
-    display: flex;
+    display: block;
     cursor: pointer;
     text-align: center;
     color: black;
     padding: 2%;
-    margin-top: %;
+    
 }
 .top a{
     text-decoration: none;
-    color: blue;
-    display: flex;
-    min-width: 120px;
-    padding: 0;
-    margin-top: 30%;
-    margin-left: 1%;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: -17%;
 }
 .top a:hover{
     text-decoration: overline underline;
-    color: blue;
+    color: white;
 }
 .nav a{
-    padding: 2%;
-    padding-top: 5%;
     text-decoration: none;
     color:blue;
-    min-width: 25%;
-    min-height: 25px;
     display: block;
-    z-index: 1;  
+    z-index: 1;
+    margin-top: 3%;
+    display: block;
 }
 .nav-content a:hover{
     background: linear-gradient(black,orange, goldenrod,yellow);
@@ -113,18 +117,19 @@ button:hover{
     z-index: 1;
 }
 .nav{
-    background: green;
+    background-color:goldenrod;
     text-decoration: bold;
     list-style:none;
-    padding: 2%;
-    padding-top: 6%;
-    border-radius: 5%;
-    margin-top:30%;
+    padding: 0;
+    border-radius: -5%;
+    margin-top:0;
+    margin-left: 6%;
     z-index: 1;
     color: white;
 }
 .nav a:after{
     display:none;
+    display: block;
 }
 .intro{
     clear: right;
@@ -163,16 +168,18 @@ button:hover{
     float:left;
     clear:right;
     margin: 5%;
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 24% auto;
     margin-right: 84% auto;
     list-style:active;
 }
 .offers h4{
-    background: white;
+    background: linear-gradient(60deg,blue,goldenrod,crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: overline underline;
     font-size: 29px;
-    color: rgb(244, 51, 51);
+    //color: rgb(244, 51, 51);
     border-radius: 2%;
     padding: 1%;
     width:auto;
