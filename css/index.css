@@ -72,12 +72,14 @@ button{
     text-transform:uppercase;
     cursor:pointer;
     padding: 5%;
-    display: flex;
+    //display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    float:bottom;
 }
 button:hover{
-    background-color: rgb(52, 110, 37);
+    background-color: rgb(77, 120, 66);
     border: 4px goldenrod solid;
 }
 .top{
