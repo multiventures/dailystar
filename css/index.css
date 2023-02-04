@@ -1,8 +1,9 @@
 body{
-    background: white;
+    background-color: white;
     background-size:contain;
     background-position: 50% center;
     font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat repeat-y;
     
 }
 @keyframes slide {
@@ -35,12 +36,13 @@ body{
     }
   }
 .head{
+    border-image: url(/redesign.png);
     background: gainsboro;
     border-radius: 1%;
     width: inherit;
     object-position: center;
     margin-top: 0;
-    position: absolute;
+    position: relative;
     float:left;
     margin-top: -2%;
     margin-left: 30%;
