@@ -13,7 +13,7 @@
 //shoe = localstorage.getItem("textvalue")
 https://formsubmit.co/dailystar.co.ke@gmail.com*/
 function load(items){
-    items = "<div style='width:80%;padding:2%;background:white;border-radius:2%;margin:10px;align-items:center;margin-left:3%;overflow-y:scroll;object-fit:fill;'>"
+    items = "<div style='width:auto;float:left;padding:2%;background:white;border-radius:2%;margin:10px;align-items:center;margin-left:3%;overflow-y:scroll;object-fit:fill;'>"
     +"<form action='https://formspree.io/f/xjvdvqnk' method='POST' style='padding: 2%;background:linear-gradient(60deg,white,grey,darkgrey)'>"
     +"<h1>CART</h1> Scroll to submit order<br>"+'<img src="'+ localStorage.getItem("textvalue")
     +'">' + "<br>"
