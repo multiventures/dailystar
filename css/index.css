@@ -169,7 +169,7 @@ button:hover{
     border: 10px solid green;
 }
 .offers{
-    background-image: url(../bg2.jpg);
+    background-image: url(bg2.jpg);
     background-color:rgb(10, 184, 233);
     background-size: cover;
     background-repeat: no-repeat;
