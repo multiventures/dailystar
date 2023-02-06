@@ -36,7 +36,7 @@ body{
     }
   }
 .head{
-    background-image: url('/contact_bg.jpg');
+    background-image: url('../contact_bg.jpg');
     background-color: gainsboro;
     border-radius: 1%;
     width: inherit;
@@ -168,7 +168,7 @@ button:hover{
     border: 10px solid green;
 }
 .offers{
-    background-image: url('/bg2.jpg');
+    background-image: url('../bg2.jpg');
     background-color:rgb(10, 184, 233);
     background-size: cover;
     background-repeat: no-repeat;
