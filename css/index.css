@@ -74,7 +74,6 @@ button{
     text-transform:uppercase;
     cursor:pointer;
     padding: 5%;
-    //display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0;
@@ -159,7 +158,9 @@ button:hover{
     border: 10px solid green;
 }
 .offers{
-    background:rgb(10, 184, 233);
+    background-image: url(bg2.jpg);
+    background-color:rgb(10, 184, 233);
+    background-size: contain;
     color: rgb(160, 119, 7);
     border-radius:4%;
     padding: 5%;
